@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card de Débito/Crédito</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      width: 300px;
+      background-color: rgb(57, 12, 39);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .card img {
+      width: 20%;
+      height: auto;
+    }
+
+    .card .card-number {
+      margin-top: 20px;
+      font-size: 16px;
+      color: rgb(255, 255, 255);
+      letter-spacing: 2px;
+    }
+
+    .card .card-holder,
+    .card .card-expiration {
+      margin-top: 10px;
+      font-size: 14px;
+      color: rgb(250, 249, 249);
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <img src="nu-icon.png" alt="Card Image">
+  <div class="card-number">**** **** **** 1234</div>
+  <div class="card-holder">Nome do Titular</div>
+  <div class="card-expiration">Válido até 12/24</div>
+</div>
+
+</body>
+</html>
